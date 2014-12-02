@@ -6,13 +6,13 @@ public class pasta extends meal
 	public void eat()
 		{
 		name = "Spagetti";
-		System.out.println(name + " is eaten...");
+		System.out.println(name + " is eaten.");
 		}
 	
 	@Override
 	public void serve()
 		{
-		System.out.println(name + " is served...");
+		System.out.println(name + " is served.");
 		
 		}
 	}

@@ -9,4 +9,9 @@ public class food {
 	public void serve() {
 		System.out.println("Food is served...");
 	}
+
+	public void plant()
+		{
+		System.out.println("Food is planted...");
+		}
 }
