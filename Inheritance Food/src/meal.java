@@ -14,7 +14,7 @@ public class meal extends food
 	@Override
 	public void serve()
 		{
-		System.out.println("A food is served...");
+		System.out.println("A " + name + "is served to your table.");
 		
 		}
 	}
