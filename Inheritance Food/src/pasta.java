@@ -13,6 +13,13 @@ public class pasta extends meal
 	public void serve()
 		{
 		System.out.println(name + " is served.");
-		
 		}
+		
+	public pasta() {
+		super("Splat");
+		System.out.println("Foods make lots of noise when dropped.");
+		System.out.println();
 	}
+
+}
+

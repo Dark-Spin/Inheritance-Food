@@ -1,6 +1,10 @@
 
 public class meal extends food 
 {
+	public meal(String string) {
+		
+	}
+
 	@Override
 	public void eat()
 		{
