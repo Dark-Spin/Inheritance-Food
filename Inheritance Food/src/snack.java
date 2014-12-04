@@ -1,16 +1,19 @@
 
-public class snack extends food
+public abstract class snack extends food
 {
+	public snack(String string) {
+
+	}
 	@Override
 	public void eat()
 		{
-		System.out.println("a food is eaten...");
+		System.out.println("A " + name + " is eaten.");
 		}
 	
 	@Override
 	public void serve()
 		{
-		System.out.println("A food is served...");
+		System.out.println("A " + name + " is served.");
 		
 		}
 	}

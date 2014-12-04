@@ -1,6 +1,11 @@
 public class pasta extends meal
 	{
 
+	public pasta(String string) {
+		super(string);
+		name = "Spagetti";
+	}
+
 	@Override
 	public void eat()
 		{
@@ -14,11 +19,12 @@ public class pasta extends meal
 		System.out.println(name + " is served.");
 		}
 
-	public pasta()
-		{
-		super("Splat");
-		System.out.println("Foods make lots of noise when dropped.");
-		System.out.println();
-		}
+	@Override
+	public void foodColor() {
+		
+		
+	}
+	
+
 
 	}

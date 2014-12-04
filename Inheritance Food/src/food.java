@@ -1,25 +1,16 @@
-public class food {
+public abstract class food {
 	protected String name;
 	protected int calories;
-	protected String noise;
-	protected void Animal(String noise) {
-	this.noise = noise;
-	}
+	
 
 	public void eat() {
-		System.out.println("Food is eaten...");
+		System.out.println("Food is eaten.");
 	}
 
 	public void serve() {
-		System.out.println("Food is served...");
-	}
-
-	public void makeNoise() {
-		System.out.println(noise);
+		System.out.println("Food is served.");
 	}
 	
-	public void plant()
-		{
-		System.out.println("Food is planted...");
-		}
+	public abstract void foodColor();
+	
 }

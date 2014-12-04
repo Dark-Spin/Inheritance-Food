@@ -1,12 +1,16 @@
 
-public class orange extends food implements Plantable
-
+public class orange extends snack implements Plantable
 {
-	@Override
+	
+	public orange(String string) {
+		super(string);
+		name = "orange";
+	}
+
+	
 	public void eat()
 		{
-		name = "orange";
-		System.out.println("A " + name + " is eaten.");
+		super.eat();
 		}
 	
 	@Override
@@ -15,6 +19,7 @@ public class orange extends food implements Plantable
 		System.out.println("A " + name + " is served.");
 		
 		}
+	
 	@Override
 	public void plant()
 		{
